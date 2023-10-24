@@ -7,10 +7,10 @@ const BoysSection = () => {
                 <div className="lg:w-1/2 lg:visible invisible  lg:z-10 lg:h-full h-0">
                     <img src={boys} alt="" />
                 </div>
-                <div className="lg:w-1/2 text-center mt-4 lg:mx-16 md:mx-10 mx-3">
+                <div className="lg:w-1/2 text-center mt-4 lg:mx-10 md:mx-10 mx-3">
                     <h2 className='text-slate-400'>What We Stand For</h2><br />
                     <p className='text-4xl text-black font-semibold'>Making a Difference</p><br /><br />
-                    <p className='text-center text-slate-500 '>Man face fruit divided seasons herb from herb moveth whose. Domino gathered  winged morning, man won’t had fly beginning. Winged have saying behold gathered winged morning, man won’t had fly beginning. Winged have saying  behold morning greater void shall created whose blessed herb light fruitful open  void without itself.</p> <br /><br /><br />
+                    <p className='text-justify text-slate-500 '>Man face fruit divided seasons herb from herb moveth whose. Domino gathered  winged morning, man won’t had fly beginning. Winged have saying behold gathered winged morning, man won’t had fly beginning. Winged have saying  behold morning greater void shall created whose blessed herb light fruitful open  void without itself.</p> <br /><br /><br />
 
                     <p className='mb-2'>Need Help? Call Us Now</p>
                     <h3 className='text-sky-400'>(+88) 12 345 6789</h3>

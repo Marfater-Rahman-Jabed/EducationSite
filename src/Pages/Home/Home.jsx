@@ -1,5 +1,6 @@
 import BoysSection from "../../Components/BoysSection/BoysSection";
 import Courses from "../../Components/Courses/Courses";
+import GirlsSection from "../../Components/GirlsSection/GirlsSection";
 import HeroSection from "../../Components/HeroSection/HeroSection";
 import NavBar from "../../Components/NavBar/NavBar";
 import ToolsSection from "../../Components/ToolsSection/ToolsSection";
@@ -12,6 +13,7 @@ const Home = () => {
             <BoysSection></BoysSection>
             <ToolsSection></ToolsSection>
             <Courses></Courses>
+            <GirlsSection></GirlsSection>
         </div>
     );
 };
