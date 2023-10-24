@@ -20,7 +20,7 @@ const HeroSection = () => {
                         <br />
                         <p className='text-4xl font-bold font-serif'>Bring your artistic talents <br /> to the hearts of your <br /> children</p>
                         <br />
-                        <button className='btn bg-yellow-400 text-black px-8 font-semibold'>Apply Now </button>
+                        <button className='btn bg-yellow-400 py-2 text-black px-8 font-semibold'>Apply Now </button>
 
                         <span className='flex justify-end '><img src={cross} alt="" /></span>
                     </div>
