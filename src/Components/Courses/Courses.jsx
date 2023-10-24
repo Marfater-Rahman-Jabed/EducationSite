@@ -62,7 +62,7 @@ const Courses = () => {
         <div>
             <div style={{ backgroundImage: `url(${bgbanner})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', }} className='text-center py-72 flex justify-center items-center '>
 
-                <span className=''>
+                <span className='lg:visible md:visible invisible lg:h-full md:h-full h-0 lg:w-full md:w-full w-0 flex justify-center items-center md:ps-40'>
                     <img src={artroom} alt="" className='h-full' />
                 </span>
             </div>
@@ -73,7 +73,7 @@ const Courses = () => {
                 </span>
 
             </span>
-            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 px-16 mt-4' >
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 lg:px-16 md:px-4 px-2 mt-4' >
                 {
                     datas.map((data, i) => <div key={i} className="card w-96  bg-base-100 shadow-2xl rounded-lg">
                         <figure><img src={data?.img} alt={data?.title} className='w-96 h-64 ' /></figure>

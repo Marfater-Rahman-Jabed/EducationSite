@@ -9,10 +9,10 @@ function App() {
 
 
   return (
-    <>
+    <div className="overflow-x-clip">
 
       <RouterProvider router={router}></RouterProvider>
-    </>
+    </div>
   )
 }
 
